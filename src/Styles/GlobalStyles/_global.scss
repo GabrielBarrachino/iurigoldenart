@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@400;500;600&display=swap');
+
+@font-face{
+    font-family: 'gilmoray';
+    src: url('gilmoray.otf') format('opentype'), url('gilmoray.ttf') format('truetype');
+}
+
+:root{
+    --bgColor: #F5F3F3;
+    --textColor: #252525;
+    --pColor: #7C7A7A;
+    --goldenColor: #E0B069;
+    --grayColor: #383839;
+    --whiteColor: #f2f2f2;
+    --bgIconColor: #D9D9D9;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'gilmoray', sans-serif;
+    letter-spacing: .9px;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+
+body{
+    background: var(--bgColor);
+    color: var(--textColor);
+    height: 100vh;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
