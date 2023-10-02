@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@400;500;600&display=swap');
-
-@font-face{
-    font-family: 'gilmoray';
-    src: url('gilmoray.otf') format('opentype'), url('gilmoray.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@400;600;700&display=swap');
 
 :root{
     --bgColor: #F5F3F3;
@@ -19,7 +14,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'gilmoray', sans-serif;
+    font-family: 'Ysabeau SC', sans-serif;
     letter-spacing: .9px;
     list-style: none;
     text-decoration: none;
