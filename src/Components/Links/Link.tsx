@@ -15,7 +15,7 @@ export function Link(){
                             <span>Encomendar</span>   
                         </li>
                     </a>
-                    <a href="https://ig.me/m/iurigoldenarts" target="_blank" title="Comprar desenhos">
+                    <a href="https://iuridourado.mercadoshops.com.br" target="_blank" title="Comprar desenhos">
                         <li>
                             <i className='bx bxs-store-alt'></i>
                             <span>Loja de desenhos</span>   
