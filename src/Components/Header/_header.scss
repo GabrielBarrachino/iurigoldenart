@@ -30,14 +30,11 @@
         .texts{
             h2{
                 font-size: 2.2rem;
-                span{
-                    color: var(--goldenColor);
-                }
             }
             p{
                 margin-top: .3rem;
-                font-size: 1.1rem;
-                color: var(--pColor);
+                font-size: 1.2rem;
+                color: var(--grayColor);
             }
         }
         .redesSociais{
@@ -48,18 +45,18 @@
                 justify-content: center;
                 gap: 1rem;
                 li{
-                    background: var(--bgIconColor);
+                    background: var(--grayColor);
                     border-radius: 10px;
                     padding: .5rem .6rem .2rem;
                     cursor: pointer;
                     transition: .3s ease;
                     &:hover{
-                        background-color: #e6e3e3;
+                        background-color: #3838393a;
                         transform: scale(1.07)
                     }
                     a{
                         font-size: 1.8rem;
-                        color: var(--textColor);
+                        color: var(--goldenColor);
                         transition: .3s ease;
                         &.instagram:hover{
                             color: #E1306C;

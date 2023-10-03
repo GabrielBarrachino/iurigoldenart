@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
 :root {
   --bgColor: #F5F3F3;
   --textColor: #252525;
@@ -13,8 +13,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Ysabeau SC", sans-serif;
-  letter-spacing: 0.9px;
+  font-family: "Italiana", serif;
+  letter-spacing: 1px;
   list-style: none;
   text-decoration: none;
   outline: none;
@@ -66,13 +66,10 @@ img {
 .container .mainContent .texts h2 {
   font-size: 2.2rem;
 }
-.container .mainContent .texts h2 span {
-  color: var(--goldenColor);
-}
 .container .mainContent .texts p {
   margin-top: 0.3rem;
-  font-size: 1.1rem;
-  color: var(--pColor);
+  font-size: 1.2rem;
+  color: var(--grayColor);
 }
 .container .mainContent .redesSociais {
   margin-top: 1.5rem;
@@ -84,19 +81,19 @@ img {
   gap: 1rem;
 }
 .container .mainContent .redesSociais ul li {
-  background: var(--bgIconColor);
+  background: var(--grayColor);
   border-radius: 10px;
   padding: 0.5rem 0.6rem 0.2rem;
   cursor: pointer;
   transition: 0.3s ease;
 }
 .container .mainContent .redesSociais ul li:hover {
-  background-color: #e6e3e3;
+  background-color: rgba(56, 56, 57, 0.2274509804);
   transform: scale(1.07);
 }
 .container .mainContent .redesSociais ul li a {
   font-size: 1.8rem;
-  color: var(--textColor);
+  color: var(--goldenColor);
   transition: 0.3s ease;
 }
 .container .mainContent .redesSociais ul li a.instagram:hover {
@@ -169,6 +166,9 @@ img {
 }
 .container .linkContent ul a li:hover {
   background-color: rgba(56, 56, 57, 0.7607843137);
+}
+.container .linkContent ul a li i {
+  color: var(--goldenColor);
 }
 
 @media (max-width: 440px) {
